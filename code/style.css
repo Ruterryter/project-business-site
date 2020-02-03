@@ -9,19 +9,25 @@ body {
 }
 
 h1 {
-  color: black;
   font-size: 36px;
+  color: whitesmoke;
+  text-align: center;
   font-family: 'New Rocker', cursive;
 }
 
 h2 {
   font-size: 28px;
+  color: whitesmoke;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
   font-family: 'New Rocker', cursive;
 }
 
 h3 {
-font-size: 24px;
-font-family: 'New Rocker', cursive;
+  font-size: 24px;
+  font-family: 'New Rocker', cursive;
+  color: black;
 }
 
 p {
@@ -79,11 +85,6 @@ video {
   justify-content: center;
 }
 
-.h1-header {
-  font-size: 36px;
-  color: whitesmoke;
-  text-align: center;
-}
 
 .h2-header {
   font-size: 28px;
@@ -215,10 +216,10 @@ select {
 /*styling of the footer */
 
 footer {
-display: flex;
-flex-direction: column;
-align-items: center;
-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
 }
 
 .footer-form {
